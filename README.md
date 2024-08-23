@@ -2,6 +2,7 @@
 ## Table of Contents
 - [Project Setup](#project-setup)
 - [Tech Stack Used](#tech-stack-used)
+- [Contribution](#contribution)
 
 ### Project Setup
 
@@ -53,3 +54,15 @@ npm run dev
 - HTML5
 - Tailwind CSS
 - JavaScript
+
+### Contribution
+- Create a new branch to avoid conflicts using the git command below
+<details>
+<summary><code>Create new branch</code></summary>
+
+```bash
+git branch new-branch-name
+# switch to new branch
+git checkout new-branch-name
+```
+</details>
