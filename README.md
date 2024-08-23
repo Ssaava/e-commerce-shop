@@ -87,6 +87,7 @@ git checkout test/branchname
 - Gray-800: **rgba(48, 54, 57, 1)**
 - Gray-900: **rgba(25, 28, 31, 1)**
 ***
+- Secondary-100: **rgba(213, 237, 253, 1)**
 - Secondary-500: **rgba(45, 165, 243, 1)**
 - Secondary-600: **rgba(36, 132, 194, 1)**
 - Secondary-700: **rgba(27, 99, 146, 1)**
@@ -100,10 +101,14 @@ git checkout test/branchname
 - Warning-400: **rgba(239, 211, 61, 1)**
 - Warning-500: **rgba(235, 200, 12, 1)**
 ***
+- Success-50: **rgba(234, 247, 233, 1)**
+- Success-100: **rgba(213, 240, 211, 1)**
+- Success-500: **rgba(45, 178, 36, 1)**
+***
 - Dark-Blue-200: **rgba(255, 255, 255, 0.12)**:
 - Dark-Blue-800: **rgba(18, 66, 97, 1)**
 ***
 - Red-Text: **rgba(190, 70, 70, 1)**
 - Danger-500: **rgba(238, 88, 88, 1)**
-- Success-500: **rgba(45, 178, 36, 1)**
+
 
