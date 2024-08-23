@@ -28,27 +28,19 @@ cd e-commerce-shop
 </details>
 
 - Second step is installing the necessary packages using npm
-<details>
-<summary>- ><code>install dependencies</code></summary>
-<br>
 
 ```bash
 npm i
 # or
 npm install
 ```
-</details>
 
 - Finally run the following command in the terminal to add tailwindcss to the project
-<details>
-<summary>- ><code>compile tailwind classes</code></summary>
-<br>
 
 ```bash
 npm run dev
 
 ```
-</details>
 
 ### Tech Stack Used
 - HTML5
@@ -57,12 +49,17 @@ npm run dev
 
 ### Contribution
 - Create a new branch to avoid conflicts using the git command below
-<details>
-<summary><code>Create new branch</code></summary>
-
 ```bash
 git branch new-branch-name
 # switch to new branch
 git checkout new-branch-name
 ```
-</details>
+
+- Do not merge directly to main branch instead create a pull request to the branch named **test**.
+- Then, if no conflicts, merge the changes and make a pull request directly to the main branch to include the changes to the project.
+- If you want to include the test branch on local repository, then run the followinf command
+```bash
+git fetch origin test/branch name
+# then
+git checkout test/branchname 
+```
