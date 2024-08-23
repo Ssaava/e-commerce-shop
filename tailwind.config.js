@@ -16,6 +16,7 @@ module.exports = {
         "gray-800":"rgba(48, 54, 57, 1)",
         "gray-900":"rgba(25, 28, 31, 1)",
         // Secondary Colors
+        "secondary-100": "rgba(213, 237, 253, 1)",
         "secondary-500":"rgba(45, 165, 243, 1)",
         "secondary-700":"rgba(27, 99, 146, 1)",
       //   Primary Colors
@@ -32,7 +33,9 @@ module.exports = {
         "dark-blue-800":"rgba(18, 66, 97, 1)",
       //   Danger Colors
         "danger-500": "rgba(238, 88, 88, 1)",
-      //   Success
+      //   Success Colors
+        "success-50": "rgba(234, 247, 233, 1)",
+        "success-100": "rgba(213, 240, 211, 1)",
         "success-500":"rgba(45, 178, 36, 1)",
       }
     },
