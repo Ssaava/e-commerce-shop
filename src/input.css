@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .section {
+        @apply px-[clamp(1.5rem,-2.8436rem+23.166vw,24rem)]
+    }
+    .section-badge {
+        @apply px-[clamp(1.5rem,-2.0714rem+19.0476vw,20rem)]    }
+}

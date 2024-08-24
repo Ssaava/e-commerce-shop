@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./index.html"],
   theme: {
     extend: {
+      fontSize: {
+        "3xl": ["2.5rem", "2rem"]
+      },
       colors: {
         // Gray Colors
         "gray-00": "rgba(255, 255, 255, 1)",
@@ -37,6 +40,8 @@ module.exports = {
         "success-50": "rgba(234, 247, 233, 1)",
         "success-100": "rgba(213, 240, 211, 1)",
         "success-500":"rgba(45, 178, 36, 1)",
+      //   other colors
+        "divider": "rgba(255, 255, 255, 0.16)",
       }
     },
   },
