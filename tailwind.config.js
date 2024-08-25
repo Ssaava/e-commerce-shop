@@ -18,7 +18,8 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        "3xl": ["2.5rem", "2rem"]
+        "3xl": ["2.5rem", "2rem"],
+        "h2": ["2rem","2rem"]
       },
       colors: {
         border: "hsl(var(--border))",
@@ -61,6 +62,7 @@ module.exports = {
           "dark-blue-800":"rgba(18, 66, 97, 1)",
           //   Danger Colors
           "danger-500": "rgba(238, 88, 88, 1)",
+        "danger-600": "rgba(190, 70, 70, 1)",
           //   Success Colors
           "success-50": "rgba(234, 247, 233, 1)",
           "success-100": "rgba(213, 240, 211, 1)",

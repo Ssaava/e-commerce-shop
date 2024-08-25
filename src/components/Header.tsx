@@ -1,4 +1,4 @@
-import logo from "/public/misercom_logo.png"
+import logo from "/misercom_logo.png"
 
 const Header = ()=> {
     return (

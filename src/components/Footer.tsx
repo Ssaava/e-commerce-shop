@@ -1,6 +1,6 @@
 import {categories, quickLinks, popularTags} from "@/assets/data/data.tsx"
 import {Link} from "react-router-dom";
-import logo from "/public/misercom_logo.png"
+import logo from "/misercom_logo.png"
 const Footer = ()=>{
     return (
         <>
