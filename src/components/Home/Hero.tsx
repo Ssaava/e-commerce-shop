@@ -1,5 +1,5 @@
 import console from "/images/console.png";
-import phone from "/images/phone.png";
+import phone from "/images/google-pixel.png";
 import pods from "/images/pods.png"
 
 const Hero = ()=>{
