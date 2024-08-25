@@ -74,3 +74,101 @@ export const Products = [
         rating: [5, 5, 5, 4, 4]
     }
 ];
+
+
+export const categories = [
+    "Computer & Laptop",
+    "Smartphone",
+    "Headphone",
+    "Accessories",
+    "Camera & Photo",
+    "TV & Homes",
+]
+
+interface Links {
+    name: string,
+    link: string,
+}
+export const quickLinks: Links[] = [
+    {
+        name: "Shop Product",
+        link: "#",
+    },
+    {
+        name: "Shopping Cart",
+        link: "#",
+    },
+    {
+        name: "Wishlist",
+        link: "#",
+    },
+    {
+        name: "Compare",
+        link: "#",
+    },
+    {
+        name: "Track Order",
+        link: "#",
+    },
+    {
+        name: "Customer Help",
+        link: "#",
+    },
+    {
+        name: "About Us",
+        link: "#",
+    },
+]
+
+
+
+export const popularTags: Links[] = [
+    {
+        name: "Game",
+        link: "#",
+    },
+    {
+        name: "iPhone",
+        link: "#",
+    },
+    {
+        name: "Laptops",
+        link: "#",
+    },
+    {
+        name: "Macbook",
+        link: "#",
+    },
+    {
+        name: "Power Bank",
+        link: "#",
+    },
+    {
+        name: "SSD",
+        link: "#",
+    },
+    {
+        name: "Graphics Card",
+        link: "#",
+    },
+    {
+        name: "Smart TV",
+        link: "#",
+    },
+    {
+        name: "Speaker",
+        link: "#",
+    },
+    {
+        name: "Tablet",
+        link: "#",
+    },
+    {
+        name: "Microwave",
+        link: "#",
+    },
+    {
+        name: "Samsung",
+        link: "#",
+    },
+]
