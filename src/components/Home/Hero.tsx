@@ -1,6 +1,7 @@
-import console from "/public/images/console.png";
-import phone from "/public/images/phone.png";
-import pods from "/public/images/pods.png"
+import console from "/images/console.png";
+import phone from "/images/google-pixel.png";
+import pods from "/images/pods.png"
+
 const Hero = ()=>{
     return (
         <>
@@ -23,10 +24,8 @@ const Hero = ()=>{
                                             Pass for $2 USD
                                         </p>
                                         <button className="rounded-sm text-gray-00 font-bold bg-primary-500 px-6 py-4 flex gap-4">
-                                            <a>SHOP NOW</a>{" "}
-                                            <span>
-                    <i className="fa-solid fa-arrow-right" />
-                  </span>
+                                            <a href={"#"}>SHOP NOW</a>
+                                            <span><i className="fa-solid fa-arrow-right" /></span>
                                         </button>
                                     </div>
                                     <div>...</div>

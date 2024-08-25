@@ -85,23 +85,29 @@ git checkout test/branchname
 - Percentage off
 ```html
 
-<button class="block text-xs absolute left-4 top-4 ml-auto z-10 bg-warning-400 text-gray-900 font-bold rounded-sm px-4 py-2">32&percnt; OFF</button>
+<button className="block text-xs absolute left-4 top-4 ml-auto z-10 bg-warning-400 text-gray-900 font-bold rounded-sm px-4 py-2">32&percnt; OFF</button>
 ```
 - Hot deal
 ```html
-<button class="block text-xs absolute left-4 top-4 ml-auto z-10 bg-danger-500 text-gray-00 font-bold rounded-sm px-4 py-2">HOT</button>
+<button className="block text-xs absolute left-4 top-4 ml-auto z-10 bg-danger-500 text-gray-00 font-bold rounded-sm px-4 py-2">HOT</button>
 ```
 - Best Deal
 ```html
-<button class="hidden text-xs absolute left-4 top-4 ml-auto z-10 bg-secondary-500 text-gray-00 font-bold rounded-sm px-4 py-2">BEST DEALS</button>
+<button className="hidden text-xs absolute left-4 top-4 ml-auto z-10 bg-secondary-500 text-gray-00 font-bold rounded-sm px-4 py-2">BEST DEALS</button>
 ```
 - Sold Out
 ```html
-<button class="block absolute text-xs left-4 top-4 ml-auto z-10 bg-gray-400 text-gray-00 font-bold rounded-sm px-4 py-2">SOLD OUT</button>
+<button className="block absolute text-xs left-4 top-4 ml-auto z-10 bg-gray-400 text-gray-00 font-bold rounded-sm px-4 py-2">SOLD OUT</button>
 ```
 - Discount
 ```html
-<p class="text-gray-300 line-through font-medium">&dollar;865.99</p>
+<p className="text-gray-300 line-through font-medium">&dollar;865.99</p>
+```
+- Offers Period
+```html
+<button className="block absolute text-xs left-4 top-4 ml-auto z-10 bg-gray-00 text-gray-900 font-bold rounded-sm px-4 py-2">
+    ENDS OF CHRISTMAS
+</button>
 ```
 ### Colors Used
 - Background: **#E3E6E6**
