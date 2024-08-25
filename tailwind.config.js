@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./index.html"],
   theme: {
     extend: {
+      fontSize: {
+        "3xl": ["2.5rem", "2rem"]
+      },
       colors: {
         // Gray Colors
         "gray-00": "rgba(255, 255, 255, 1)",
@@ -18,6 +21,7 @@ module.exports = {
         // Secondary Colors
         "secondary-100": "rgba(213, 237, 253, 1)",
         "secondary-500":"rgba(45, 165, 243, 1)",
+        "secondary-600": "rgba(36, 132, 194, 1)",
         "secondary-700":"rgba(27, 99, 146, 1)",
       //   Primary Colors
         "primary-100":"rgba(255, 231, 214, 1)",
@@ -37,6 +41,8 @@ module.exports = {
         "success-50": "rgba(234, 247, 233, 1)",
         "success-100": "rgba(213, 240, 211, 1)",
         "success-500":"rgba(45, 178, 36, 1)",
+      //   other colors
+        "divider": "rgba(255, 255, 255, 0.16)",
       }
     },
   },
