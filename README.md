@@ -3,6 +3,8 @@
 - [Project Setup](#project-setup)
 - [Tech Stack Used](#tech-stack-used)
 - [Contribution](#contribution)
+- [Useful HTML Code Snippets](#useful-html-code-snippets)
+- [Useful Spacing Options for the Deals Tags](#useful-spacing-options-for-the-deals-tags)
 - [Useful Resources](#useful-resources)
 - [Colors Used](#colors-used)
 
@@ -73,13 +75,13 @@ git checkout test/branchname
 - [Clamp Calculator](https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjMwMHB4IiwibWF4V2lkdGgiOiIxMDI0cHgiLCJtaW5Gb250U2l6ZSI6IjI1MHB4IiwibWF4Rm9udFNpemUiOiI0NDhweCJ9)
 - [Tailwindcss docs](https://tailwindcss.com/)
 
-#### Use the following values to provide space between deals tags
+### Useful Spacing Options for the Deals Tags
 - top-[1rem] for the first tag
 - top-[3.5rem] for the second tag
 - top-[6rem] for the third tag
 - top-[6rem] for the fourth tag
 
-#### The tags available
+### Useful HTML Code Snippets
 - Percentage off
 ```html
 
