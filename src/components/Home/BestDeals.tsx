@@ -1,8 +1,8 @@
-import ps5 from "/public/images/ps5.png";
-import pads from "/public/images/pads.png";
-import blackBeats from "/public/images/black-beats.png";
-import whiteDrone from "/public/images/white-drone.png";
-import xperia from "/public/images/xperia.png"
+import ps5 from "/images/ps5.png";
+import pads from "/images/pads.png";
+import blackBeats from "/images/black-beats.png";
+import whiteDrone from "/images/white-drone.png";
+import xperia from "/images/xperia.png"
 const BestDeals = ()=>{
     return (
         <>

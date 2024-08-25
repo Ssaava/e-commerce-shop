@@ -172,3 +172,50 @@ export const popularTags: Links[] = [
         link: "#",
     },
 ]
+
+interface Shop{
+    img: string;
+    title: string;
+}
+export const categoriesShop:Shop[] = [
+    {
+        img: "/images/tv.png",
+        title: "Tv & Homes",
+    },
+    {
+        img: "/images/accessories.png",
+        title: "Accessories",
+    },
+    {
+        img: "/images/camera-photo.png",
+        title: "Camera & Photo",
+    },
+    {
+        img: "/images/desktop.png",
+        title: "Desktop",
+    },
+    {
+        img: "/images/head-phones.png",
+        title: "Headphones",
+    },
+    {
+        img: "/images/smart-phone.png",
+        title: "Smart Phones",
+    },
+    {
+        img: "/images/tv.png",
+        title: "Tv & Homes",
+    },
+    {
+        img: "/images/accessories.png",
+        title: "Accessories",
+    },
+    {
+        img: "/images/desktop.png",
+        title: "Desktop",
+    },
+    {
+        img: "/images/head-phones.png",
+        title: "Headphones",
+    },
+]

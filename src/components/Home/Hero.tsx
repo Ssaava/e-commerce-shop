@@ -1,6 +1,6 @@
-import console from "/public/images/console.png";
-import phone from "/public/images/phone.png";
-import pods from "/public/images/pods.png"
+import console from "/images/console.png";
+import phone from "/images/phone.png";
+import pods from "/images/pods.png"
 const Hero = ()=>{
     return (
         <>
