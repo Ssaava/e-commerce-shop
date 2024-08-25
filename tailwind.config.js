@@ -21,6 +21,7 @@ module.exports = {
         // Secondary Colors
         "secondary-100": "rgba(213, 237, 253, 1)",
         "secondary-500":"rgba(45, 165, 243, 1)",
+        "secondary-600": "rgba(36, 132, 194, 1)",
         "secondary-700":"rgba(27, 99, 146, 1)",
       //   Primary Colors
         "primary-100":"rgba(255, 231, 214, 1)",
