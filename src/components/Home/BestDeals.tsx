@@ -1,3 +1,8 @@
+import ps5 from "/public/images/ps5.png";
+import pads from "/public/images/pads.png";
+import blackBeats from "/public/images/black-beats.png";
+import whiteDrone from "/public/images/white-drone.png";
+import xperia from "/public/images/xperia.png"
 const BestDeals = ()=>{
     return (
         <>
@@ -33,7 +38,7 @@ const BestDeals = ()=>{
                                 <div className="text-left">
                                     <div className="w-[18.3rem] mx-auto h-[16.1]">
                                         <img
-                                            src="/public/images/ps5.png"
+                                            src={ps5}
                                             alt="Playstation 5"
                                             className="w-full h-full object-cover"
                                         />
@@ -87,7 +92,7 @@ const BestDeals = ()=>{
                                 </button>
                                 <div className="w-[13.3rem] h-[11.6rem] mx-auto">
                                     <img
-                                        src="/public/images/white-drone.png"
+                                        src={whiteDrone}
                                         alt="White Drone"
                                         className="w-full object-cover"
                                     />
@@ -104,7 +109,7 @@ const BestDeals = ()=>{
                                 {/*              add deal button here*/}
                                 <div className="w-[13.3rem] h-[11.6rem] mx-auto">
                                     <img
-                                        src="/public/images/xperia.png"
+                                        src={xperia}
                                         alt="Xperia Phone"
                                         className="w-full object-cover"
                                     />
@@ -123,7 +128,7 @@ const BestDeals = ()=>{
                                 </button>
                                 <div className="w-[13.3rem] h-[11.6rem] mx-auto">
                                     <img
-                                        src="/public/images/pads.png"
+                                        src={pads}
                                         alt="Game Pads"
                                         className="w-full object-cover"
                                     />
@@ -141,7 +146,7 @@ const BestDeals = ()=>{
                                 {/*              Add deal here*/}
                                 <div className="w-[13.3rem] h-[11.6rem] mx-auto">
                                     <img
-                                        src="/public/images/black-beats.png"
+                                        src={blackBeats}
                                         alt="Black Beats"
                                         className="w-full object-cover"
                                     />
@@ -162,7 +167,7 @@ const BestDeals = ()=>{
                                 </button>
                                 <div className="w-[13.3rem] h-[11.6rem] mx-auto">
                                     <img
-                                        src="/public/images/pads.png"
+                                        src={pads}
                                         alt="Game Pads"
                                         className="w-full object-cover"
                                     />
@@ -180,7 +185,7 @@ const BestDeals = ()=>{
                                 {/*              Add deal here*/}
                                 <div className="w-[13.3rem] h-[11.6rem] mx-auto">
                                     <img
-                                        src="/public/images/black-beats.png"
+                                        src={blackBeats}
                                         alt="Black Beats"
                                         className="w-full object-cover"
                                     />
@@ -201,7 +206,7 @@ const BestDeals = ()=>{
                                 </button>
                                 <div className="w-[13.3rem] h-[11.6rem] mx-auto">
                                     <img
-                                        src="/public/images/white-drone.png"
+                                        src={whiteDrone}
                                         alt="White Drone"
                                         className="w-full object-cover"
                                     />
@@ -218,7 +223,7 @@ const BestDeals = ()=>{
                                 {/*              add deal button here*/}
                                 <div className="w-[13.3rem] h-[11.6rem] mx-auto">
                                     <img
-                                        src="/public/images/xperia.png"
+                                        src={xperia}
                                         alt="Xperia Phone"
                                         className="w-full object-cover"
                                     />
