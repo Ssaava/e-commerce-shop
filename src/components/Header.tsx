@@ -1,3 +1,5 @@
+import logo from "/public/misercom_logo.png"
+
 const Header = ()=> {
     return (
         <>
@@ -50,7 +52,7 @@ const Header = ()=> {
                     <div className="section flex justify-between items-center gap-6 py-6">
                         <div className="flex gap-2 items-center text-white">
                             <img
-                                src="/public/misercom_logo.png"
+                                src={logo}
                                 alt="Misercom Logo"
                                 className="w-14 h-14"
                             />
