@@ -3,6 +3,8 @@
 - [Project Setup](#project-setup)
 - [Tech Stack Used](#tech-stack-used)
 - [Contribution](#contribution)
+- [Useful HTML Code Snippets](#useful-html-code-snippets)
+- [Useful Spacing Options for the Deals Tags](#useful-spacing-options-for-the-deals-tags)
 - [Useful Resources](#useful-resources)
 - [Colors Used](#colors-used)
 
@@ -73,6 +75,34 @@ git checkout test/branchname
 - [Clamp Calculator](https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjMwMHB4IiwibWF4V2lkdGgiOiIxMDI0cHgiLCJtaW5Gb250U2l6ZSI6IjI1MHB4IiwibWF4Rm9udFNpemUiOiI0NDhweCJ9)
 - [Tailwindcss docs](https://tailwindcss.com/)
 
+### Useful Spacing Options for the Deals Tags
+- top-[1rem] for the first tag
+- top-[3.5rem] for the second tag
+- top-[6rem] for the third tag
+- top-[6rem] for the fourth tag
+
+### Useful HTML Code Snippets
+- Percentage off
+```html
+
+<button class="block text-xs absolute left-4 top-4 ml-auto z-10 bg-warning-400 text-gray-900 font-bold rounded-sm px-4 py-2">32&percnt; OFF</button>
+```
+- Hot deal
+```html
+<button class="block text-xs absolute left-4 top-4 ml-auto z-10 bg-danger-500 text-gray-00 font-bold rounded-sm px-4 py-2">HOT</button>
+```
+- Best Deal
+```html
+<button class="hidden text-xs absolute left-4 top-4 ml-auto z-10 bg-secondary-500 text-gray-00 font-bold rounded-sm px-4 py-2">BEST DEALS</button>
+```
+- Sold Out
+```html
+<button class="block absolute text-xs left-4 top-4 ml-auto z-10 bg-gray-400 text-gray-00 font-bold rounded-sm px-4 py-2">SOLD OUT</button>
+```
+- Discount
+```html
+<p class="text-gray-300 line-through font-medium">&dollar;865.99</p>
+```
 ### Colors Used
 - Background: **#E3E6E6**
 ***
