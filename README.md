@@ -141,4 +141,3 @@ git checkout test/branchname
 - Red-Text: **rgba(190, 70, 70, 1)**
 - Danger-500: **rgba(238, 88, 88, 1)**
 
-
