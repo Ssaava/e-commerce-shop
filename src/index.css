@@ -73,7 +73,7 @@
     @apply px-[clamp(0.5rem,-2.2992rem+14.9292vw,15rem)]
   }
   .section-badge {
-    @apply px-[clamp(1.5rem,-2.0714rem+19.0476vw,20rem)]
+    @apply px-[clamp(0.5rem,-1.527rem+10.8108vw,11rem)]
   }
   .center-item{
     @apply flex justify-center items-center

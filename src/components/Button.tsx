@@ -2,7 +2,7 @@ const Button = ({title, className="bg-warning-400 text-xs text-gray-900 absolute
     return (
         <>
             <button
-                className={` ${className} ml-auto z-10 font-bold rounded-sm px-4 py-2`}>{title}
+                className={`${className} ml-auto z-10 font-bold rounded-sm px-4 py-2`}>{title}
             </button>
         </>
     )
