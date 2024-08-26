@@ -55,9 +55,7 @@ const Hero = ()=>{
                                                 </h2>
                                                 <button className="rounded-sm text-gray-00 font-bold bg-primary-500 px-6 py-4 flex gap-4">
                                                     <a>SHOP NOW</a>{" "}
-                                                    <span>
-                        <i className="fa-solid fa-arrow-right" />
-                      </span>
+                                                    <span><i className="fa-solid fa-arrow-right" /></span>
                                                 </button>
                                             </div>
                                             <div className="relative">
@@ -87,9 +85,7 @@ const Hero = ()=>{
                                                 </p>
                                                 <button className="rounded-sm text-gray-00 font-bold bg-primary-500 px-6 py-4 flex gap-4">
                                                     <a>SHOP NOW</a>{" "}
-                                                    <span>
-                        <i className="fa-solid fa-arrow-right" />
-                      </span>
+                                                    <span><i className="fa-solid fa-arrow-right" /></span>
                                                 </button>
                                             </div>
                                         </div>
