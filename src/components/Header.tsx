@@ -1,11 +1,12 @@
 import logo from "/misercom_logo.png"
+import {Link} from "react-router-dom";
 
 const Header = ()=> {
     return (
         <>
             <header id="header">
                 <div className="bg-secondary-700 ">
-                    <div className="section flex justify-between gap-4 items-center py-6 border-b-2 border-b-divider">
+                    <div className="section flex justify-between gap-4 items-center py-2 border-b-2 border-b-divider">
                         <h3 className="text-gray-00 text-base">
                             Welcome to Misercom e-commerce Store
                         </h3>
@@ -17,7 +18,7 @@ const Header = ()=> {
                                 <i className="fa-brands fa-instagram"/>
                             </div>
                             <div className="border-l-2 border-l-divider">
-                                <div className="relative">
+                                <div className="relative ">
                                     <button
                                         className="flex items-center px-6 py-2 text-sm font-medium uppercase text-gray-00 transition duration-150 ease-in-out"
                                         type="button"
@@ -59,7 +60,7 @@ const Header = ()=> {
                             <h1 className="text-3xl font-extrabold">Misercom</h1>
                         </div>
                         <div
-                            className="max-w-[35rem] w-full bg-white py-4 px-6 flex gap-4 justify-between items-center">
+                            className="max-w-[45rem] w-full bg-white rounded-sm py-[.9rem] px-6 flex gap-4 justify-between items-center">
                             <div className="flex-1">
                                 <input
                                     id="search"
@@ -102,7 +103,7 @@ const Header = ()=> {
                                 </li>
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                                     <i className="fa-regular fa-bookmark"/>
-                                    <a href="#">Products</a>
+                                    <Link to="/products">Products</Link>
                                 </li>
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                                     <i className="fa-regular fa-heart"/>

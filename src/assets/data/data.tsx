@@ -239,7 +239,7 @@ interface Links {
 export const quickLinks: Links[] = [
     {
         name: "Shop Product",
-        link: "#",
+        link: "/products",
     },
     {
         name: "Shopping Cart",
@@ -259,11 +259,11 @@ export const quickLinks: Links[] = [
     },
     {
         name: "Customer Help",
-        link: "#",
+        link: "/customer-help",
     },
     {
         name: "About Us",
-        link: "#",
+        link: "/about",
     },
 ]
 
