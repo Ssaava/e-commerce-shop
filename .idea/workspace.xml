@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c923a9b-9d79-4028-9623-d8139cb84c78" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/accessories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/black-beats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blue-phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/camera-photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/computer-accessories.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/computer-monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/console.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/exclusive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gaming-headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/google-pixel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/head-phones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/high-speed-cable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ps5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/samsung-galaxy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/smart-phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/tozo-phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/white-drone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xperia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/misercom_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/data/data.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/BestDeals.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Carousel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/FeaturedProducts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/carousel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/navigation-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Base.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/e-commerce-shop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/output.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2l3ugr13Xs74GSSRL9QbFU8qAng" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging main",
+    "javascript.nodejs.core.library.configured.version": "18.19.1",
+    "javascript.nodejs.core.library.typings.version": "18.19.45",
+    "last_opened_file_path": "/home/black-apple/Desktop/Github-Repositories/Projects/e-commerce-shop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/black-apple/Desktop/Github-Repositories/Projects/e-commerce-shop/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PS-242.20224.427" />
+        <option value="bundled-php-predefined-a98d8de5180a-d6acee4cb394-com.jetbrains.php.sharedIndexes-PS-242.20224.427" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c923a9b-9d79-4028-9623-d8139cb84c78" name="Changes" comment="" />
+      <created>1724421194612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724421194612</updated>
+      <workItem from="1724421195666" duration="5478000" />
+      <workItem from="1724445188701" duration="186000" />
+      <workItem from="1724445570072" duration="5701000" />
+      <workItem from="1724506269136" duration="9306000" />
+      <workItem from="1724531082133" duration="18027000" />
+      <workItem from="1724573011874" duration="636000" />
+      <workItem from="1724574076987" duration="840000" />
+      <workItem from="1724575116347" duration="1936000" />
+      <workItem from="1724614308634" duration="7939000" />
+      <workItem from="1724622298279" duration="5160000" />
+      <workItem from="1724662554073" duration="2593000" />
+      <workItem from="1724665296324" duration="8801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/data/data.tsx</url>
+          <line>82</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Home/Advertising.tsx</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
