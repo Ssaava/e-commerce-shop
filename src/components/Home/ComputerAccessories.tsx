@@ -13,7 +13,7 @@ const ComputerAccessories =()=>{
                     <div className={"col-span-9 w-full h-full flex flex-col gap-6"}>
                         <div className="flex justify-between items-center h-auto">
                             <div className="flex gap-4 items-center">
-                                <h2 className="text-gray-900 font-extrabold text-2xl">Featured Products</h2>
+                                <h2 className="text-gray-900 font-extrabold text-2xl">Computer Accessories</h2>
                             </div>
                             <div className={"flex gap-6 text-sm "}>
                                 <ul className={"text-gray-600 list-none flex items-center gap-4"}>
