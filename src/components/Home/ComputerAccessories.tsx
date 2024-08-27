@@ -1,6 +1,6 @@
 import earBuds from "/images/wireless-earbuds.png";
 import ProductCard from "@/components/ProductCard.tsx";
-import {Products} from "@/assets/data/data.tsx";
+import {products} from "@/assets/data/data.tsx";
 import ShopNowButton from "@/components/ShopNowButton.tsx";
 import Button from "@/components/Button.tsx";
 const ComputerAccessories =()=>{
@@ -38,7 +38,7 @@ const ComputerAccessories =()=>{
                         <div className={"grid grid-cols-4 grid-rows-2 gap-4 flex-grow"}>
                             {/*    Products Card*/}
                             {
-                                Products.slice(0, 8).map(({image, name, price, deals, discount}) => (
+                                products.slice(0, 8).map(({image, name, price, deals, discount}) => (
                                     <ProductCard src={image} name={name} amount={price} deal={deals}
                                                  className={"max-h-[20rem] overflow-hidden"} discount={discount}/>
                                 ))

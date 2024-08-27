@@ -1,11 +1,13 @@
 import logo from "/misercom_logo.png"
+import {Link} from "react-router-dom";
+import SearchInput from "@/components/SearchInput.tsx";
 
 const Header = ()=> {
     return (
         <>
             <header id="header">
                 <div className="bg-secondary-700 ">
-                    <div className="section flex justify-between gap-4 items-center py-6 border-b-2 border-b-divider">
+                    <div className="section flex justify-between gap-4 items-center py-2 border-b-2 border-b-divider">
                         <h3 className="text-gray-00 text-base">
                             Welcome to Misercom e-commerce Store
                         </h3>
@@ -17,30 +19,21 @@ const Header = ()=> {
                                 <i className="fa-brands fa-instagram"/>
                             </div>
                             <div className="border-l-2 border-l-divider">
-                                <div className="relative">
-                                    <button
-                                        className="flex items-center px-6 py-2 text-sm font-medium uppercase text-gray-00 transition duration-150 ease-in-out"
-                                        type="button"
-                                    >
+                                <div className="relative ">
+                                    <button className="flex items-center px-6 py-2 text-sm font-medium uppercase text-gray-00 transition duration-150 ease-in-out" type="button">
                                         USD
                                         <span className="ml-2">
-                <i className="fa-solid fa-chevron-down"/>
-              </span>
+                                            <i className="fa-solid fa-chevron-down"/>
+                                        </span>
                                     </button>
                                     <ul className="absolute z-[1000] m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white text-base">
                                         <li>
-                                            <a
-                                                className="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700"
-                                                href="#"
-                                            >
+                                            <a className="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700" href="#">
                                                 UGX
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700"
-                                                href="#"
-                                            >
+                                            <a className="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700" href="#">
                                                 EUR
                                             </a>
                                         </li>
@@ -58,22 +51,7 @@ const Header = ()=> {
                             />
                             <h1 className="text-3xl font-extrabold">Misercom</h1>
                         </div>
-                        <div
-                            className="max-w-[35rem] w-full bg-white py-4 px-6 flex gap-4 justify-between items-center">
-                            <div className="flex-1">
-                                <input
-                                    id="search"
-                                    type="text"
-                                    className="w-full text-gray-500 ring-0 border-0 outline-none focus:outline-none"
-                                    placeholder="Search for anything..."
-                                />
-                            </div>
-                            <div className="text-gray-900 whitespace-nowrap">
-                                <label htmlFor="search">
-                                    <i className="fa-solid fa-magnifying-glass"/>
-                                </label>
-                            </div>
-                        </div>
+                        <SearchInput />
                         <div className="flex gap-6 text-gray-00 text-2xl">
                             <div className="relative">
                                 <div
@@ -102,7 +80,7 @@ const Header = ()=> {
                                 </li>
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                                     <i className="fa-regular fa-bookmark"/>
-                                    <a href="#">Products</a>
+                                    <Link to="/products">Products</Link>
                                 </li>
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                                     <i className="fa-regular fa-heart"/>
