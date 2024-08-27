@@ -200,25 +200,7 @@ const Products = ()=>{
                             <div className={"grid grid-cols-4 grid-rows-2 gap-4 flex-grow"}>
                                 {/*    Products Card*/}
                                 {
-                                    products.map(({image, name, price, deals, discount}) => (
-                                        <ProductCard src={image} name={name} amount={price} deal={deals}
-                                                     className={"max-h-[20rem] overflow-hidden"} discount={discount}/>
-                                    ))
-                                }
-                                {
-                                    products.map(({image, name, price, deals, discount}) => (
-                                        <ProductCard src={image} name={name} amount={price} deal={deals}
-                                                     className={"max-h-[20rem] overflow-hidden"} discount={discount}/>
-                                    ))
-                                }
-                                {
-                                    products.map(({image, name, price, deals, discount}) => (
-                                        <ProductCard src={image} name={name} amount={price} deal={deals}
-                                                     className={"max-h-[20rem] overflow-hidden"} discount={discount}/>
-                                    ))
-                                }
-                                {
-                                    products.map(({image, name, price, deals, discount}) => (
+                                    products.slice(0,32).map(({image, name, price, deals, discount}) => (
                                         <ProductCard src={image} name={name} amount={price} deal={deals}
                                                      className={"max-h-[20rem] overflow-hidden"} discount={discount}/>
                                     ))
