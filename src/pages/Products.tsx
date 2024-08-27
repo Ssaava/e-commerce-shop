@@ -204,12 +204,28 @@ const Products = ()=>{
                                     </button>
                                 </div>
                             </div>
+                            {/**/}
+                            <div className={"py-[.8rem] px-6 my-4 rounded-md bg-gray-50"}>
+                                <ul className={"flex gap-4 items-center text-sm"}>
+
+                                    <button className={"text-gray-600 flex duration-150 gap-4 items-center"}>
+                                        <li>Active Filters: </li>
+                                    </button>
+                                    <button>
+                                        <li className={"text-gray-900 font-medium"}>Electronics Devices <i className="text-gray-600 ml-2 fa-solid fa-xmark"></i></li>
+                                    </button>
+                                    <button>
+                                        <li className={"text-gray-900 font-medium"}>5 Star Rating <i className="text-gray-600 ml-2 fa-solid fa-xmark"></i></li>
+                                    </button>
+
+                                </ul>
+                            </div>
                         </div>
                         <div className={"my-8"}>
                             <div className={"grid grid-cols-4 grid-rows-2 gap-4 flex-grow"}>
                                 {/*    Products Card*/}
                                 {
-                                    products.slice(0,32).map(({image, name, price, deals, discount}) => (
+                                    products.slice(0, 32).map(({image, name, price, deals, discount}) => (
                                         <ProductCard src={image} name={name} amount={price} deal={deals}
                                                      className={"max-h-[20rem] overflow-hidden"} discount={discount}/>
                                     ))
@@ -218,15 +234,15 @@ const Products = ()=>{
                         </div>
 
                         <Pagination>
-                        <PaginationContent>
-                            <PaginationItem>
-                                <PaginationPrevious href="/products" />
-                            </PaginationItem>
-                            <div className={"flex items-center max-w-[30rem] overflow-hidden"}>
-                                {
-                                    products.map((_, index)=>(
-                                        <PaginationItem key={index}>
-                                            <PaginationLink href="#">{index}</PaginationLink>
+                            <PaginationContent>
+                                <PaginationItem>
+                                    <PaginationPrevious href="/products"/>
+                                </PaginationItem>
+                                <div className={"flex items-center max-w-[30rem] overflow-hidden"}>
+                                    {
+                                        products.map((_, index) => (
+                                            <PaginationItem key={index}>
+                                                <PaginationLink href="#">{index}</PaginationLink>
                                         </PaginationItem>
                                     ))
                                 }
