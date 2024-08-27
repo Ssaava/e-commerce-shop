@@ -20,7 +20,7 @@ interface Product {
     rating: number[];
 }
 
-export const Products:Product[] = [
+export const products:Product[] = [
     {
         id: "1",
         name: "Samsung A71 Series Comes with A Screen guard",
