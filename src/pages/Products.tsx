@@ -178,7 +178,6 @@ const Products = ()=>{
                                 className={`flex items-center justify-center rounded-sm text-gray-00 font-bold bg-primary-500 px-6 py-[.7rem] gap-4 mb-4`}>
                                 <span><i className="fa-brands fa-opencart"></i></span>
                                 <a href={"#"}>ADD TO CART</a>
-
                             </button>
                             <button
                                 className={`flex items-center justify-center rounded-sm text-primary-500 font-bold bg-primary-50 border-2 border-primary-500 px-6 py-[.7rem] gap-4`}>
