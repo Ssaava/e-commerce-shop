@@ -193,7 +193,7 @@ const Products = ()=>{
                     <div className={"col-span-9"}>
                         <div>
                             <div className={"flex flex-wrap gap-4 items-center justify-between"}>
-                                <SearchInput maxWidth={"w-[30rem]"} className={"border-[1px] border-gray-100"}/>
+                                <SearchInput maxWidth={"w-[25rem]"} className={"border-[1px] border-gray-100"}/>
 
                                 <div className={"flex items-center flex-wrap"}>
                                     <p className={"text-sm"}>Sort by:</p>
