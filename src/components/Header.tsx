@@ -43,14 +43,14 @@ const Header = ()=> {
                         </div>
                     </div>
                     <div className="section flex justify-between items-center gap-6 py-6">
-                        <div className="flex gap-2 items-center text-white">
+                        <Link to={"/"} className="flex gap-2 items-center text-white">
                             <img
                                 src={logo}
                                 alt="Misercom Logo"
                                 className="w-14 h-14"
                             />
                             <h1 className="text-3xl font-extrabold">Misercom</h1>
-                        </div>
+                        </Link>
                         <SearchInput />
                         <div className="flex gap-6 text-gray-00 text-2xl">
                             <div className="relative">
@@ -75,24 +75,24 @@ const Header = ()=> {
                         <div>
                             <ul className="list-none text-gray-600 flex gap-2">
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center bg-gray-50 text-sm">
-                                    <a href="#">All Category</a>
+                                    <Link to="/">All Category</Link>
                                     <i className="fa-solid fa-chevron-down"/>
                                 </li>
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                                     <i className="fa-regular fa-bookmark"/>
-                                    <Link to="/products">Products</Link>
+                                    <Link to={"/products"}>Products</Link>
                                 </li>
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                                     <i className="fa-regular fa-heart"/>
-                                    <a href="#">Wishlist</a>
+                                    <Link to="/">Wishlist</Link>
                                 </li>
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                                     <i className="fa-regular fa-lightbulb"/>
-                                    <a href="#">About Us</a>
+                                    <Link to="/">About Us</Link>
                                 </li>
                                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                                     <i className="fa-solid fa-headset"/>
-                                    <a href="#">Customer Support</a>
+                                    <Link to="#">Customer Support</Link>
                                 </li>
                             </ul>
                         </div>

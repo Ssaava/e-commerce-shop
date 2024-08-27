@@ -1,5 +1,4 @@
 import {categories, quickLinks, popularTags} from "@/assets/data/data.tsx"
-import {Link} from "react-router-dom";
 import logo from "/misercom_logo.png"
 const Footer = ()=>{
     return (
@@ -59,9 +58,9 @@ const Footer = ()=>{
                         <div className="flex flex-col gap-4 text-gray-300 text-sm">
                             {
                                 quickLinks.map(({name, link})=> (
-                                    <Link to={link} className="block hover:text-gray-00 transition-all duration-250">
+                                    <a href={link} className="block hover:text-gray-00 transition-all duration-250">
                                         {name}
-                                    </Link>
+                                    </a>
                                 ))
                             }
 
@@ -75,9 +74,9 @@ const Footer = ()=>{
                         <div className="flex gap-2 flex-wrap text-gray-00 font-bold text-sm">
                             {
                                 popularTags.map(({name, link})=> (
-                                    <Link to={link} className="border-[1px] w-fit p-2 hover:bg-gray-800 focus:bg-gray-800 border-gray-00">
+                                    <a href={link} className="border-[1px] w-fit p-2 hover:bg-gray-800 focus:bg-gray-800 border-gray-00">
                                         {name}
-                                    </Link>
+                                    </a>
                                 ))
                             }
                         </div>
