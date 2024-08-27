@@ -6,6 +6,15 @@ import watch from "/images/smart-watches.png"
 import SearchInput from "@/components/SearchInput.tsx";
 import {products} from "@/assets/data/data.tsx";
 import ProductCard from "@/components/ProductCard.tsx";
+import {
+    Pagination,
+    PaginationContent,
+    PaginationEllipsis,
+    PaginationItem,
+    PaginationLink,
+    PaginationNext,
+    PaginationPrevious
+} from "@/components/ui/pagination.tsx";
 
 const Categories = [
     "Electronic Devices", "Computer & Laptop", "Computer Accessories",
@@ -207,6 +216,33 @@ const Products = ()=>{
                                 }
                             </div>
                         </div>
+
+                        <Pagination>
+                        <PaginationContent>
+                            <PaginationItem>
+                                <PaginationPrevious href="/products" />
+                            </PaginationItem>
+                            <div className={"flex items-center max-w-[30rem] overflow-hidden"}>
+                                {
+                                    products.map((_, index)=>(
+                                        <PaginationItem key={index}>
+                                            <PaginationLink href="#">{index}</PaginationLink>
+                                        </PaginationItem>
+                                    ))
+                                }
+                            </div>
+                            <PaginationItem>
+                                <PaginationEllipsis />
+                            </PaginationItem>
+                            <PaginationItem>
+                                <PaginationLink href="#">{products.length-1}</PaginationLink>
+                            </PaginationItem>
+                            <PaginationItem>
+                                <PaginationNext href="#" />
+                            </PaginationItem>
+                        </PaginationContent>
+                    </Pagination>
+
                     </div>
                 </div>
             </section>
