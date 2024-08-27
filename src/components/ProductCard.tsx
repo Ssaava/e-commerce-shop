@@ -59,7 +59,7 @@ const ProductCard = ({src, amount, name, deal, className, discount}:Props)=>{
                     </div>
                 }
                 {/*End Stars*/}
-                <p className="text-sm">
+                <p className="text-sm overflow-y-hidden h-[2.5rem]">
                     {name}
                 </p>
                 <div className="mt-2 flex gap-2 items-center font-bold text-sm">
