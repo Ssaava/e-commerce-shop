@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 interface Props {
     src: string;
     amount: string;
@@ -9,7 +11,8 @@ interface Props {
 const ProductCard = ({src, amount, name, deal, className, discount}:Props)=>{
     return (
         <>
-            <div
+            <Link
+                to={`/product`}
                 className={`border-[.5px] p-4 border-gray-100 relative text-wrap h-full w-full ${className}`}>
                 {/*Deals*/}
                 <div className={"flex flex-col gap-4 absolute left-4 top-4"}>
@@ -66,7 +69,7 @@ const ProductCard = ({src, amount, name, deal, className, discount}:Props)=>{
                     <p className={`${discount && "inline-block"} hidden text-gray-300 line-through font-medium`}>$865</p>
                     <p className="text-secondary-500">{amount}</p>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }

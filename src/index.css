@@ -78,6 +78,9 @@
   .center-item{
     @apply flex justify-center items-center
   }
+  .vertical-spacing{
+    @apply flex flex-col gap-4
+  }
 }
 
 .ratio {
