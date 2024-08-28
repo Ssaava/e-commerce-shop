@@ -5,6 +5,7 @@ import Home from "@/pages/Home.tsx"
 import Products from "@/pages/Products.tsx";
 import Product from "@/pages/Product.tsx";
 import Auth from "./pages/Auth";
+import About from "./pages/About";
 // create the routes to the different pages here
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
             <Route path={"/products"} element={<Products/>}/>
             <Route path={"/product"} element={<Product/>}/>
             <Route path={"/auth"} element={<Auth/>}/>
+            <Route path={"/about"} element={<About/>}/>
             <Route path="*" element={<PageNotFound/>}/>
         </Route>
     )
