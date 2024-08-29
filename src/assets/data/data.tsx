@@ -1022,7 +1022,7 @@ export const quickLinks: Links[] = [
     },
     {
         name: "Customer Help",
-        link: "/customer-help",
+        link: "/contact",
     },
     {
         name: "About Us",
