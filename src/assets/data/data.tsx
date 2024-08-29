@@ -27,7 +27,7 @@ export const products:Product[] = [
         "price": "$70",
         "category": "Smart Phones",
         "description": "A high-end smartphone with a sleek design and powerful features.",
-        "discount": "",
+        "discount": "$220",
         "availability": "OUT OF STOCK",
         "brand": "TechBrand",
         "image": "/images/tozo-phone.png",
@@ -43,7 +43,7 @@ export const products:Product[] = [
         "cart": true,
         "tag": "New Arrival",
         "quantity": 50,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 4, 4, 5, 5]
     },
     {
@@ -53,7 +53,7 @@ export const products:Product[] = [
         "category": "Smart Phones",
         "description": "A high-end smartphone with a sleek design and powerful features.",
         "discount": "",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "TechBrand",
         "image": "/images/blue-phone.png",
         "images": [
@@ -70,7 +70,7 @@ export const products:Product[] = [
         "cart": true,
         "tag": "New Arrival",
         "quantity": 50,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 4, 4, 5, 5]
     },
     {
@@ -106,7 +106,7 @@ export const products:Product[] = [
         "category": "Electronics",
         "description": "A high-end smartphone with a sleek design and powerful features.",
         "discount": "",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "TechBrand",
         "image": "/images/black-beats.png",
         "images": [
@@ -159,7 +159,7 @@ export const products:Product[] = [
         "category": "Electronics",
         "description": "A high-end smartphone with a sleek design and powerful features.",
         "discount": "$1600",
-        "availability": "",
+        "availability": "OUT OF STOCK",
         "brand": "TechBrand",
         "image": "/images/tv.png",
         "images": [
@@ -315,7 +315,7 @@ export const products:Product[] = [
         "category": "Home Entertainment",
         "description": "Enjoy a cinematic experience at home with this high-definition projector.",
         "discount": "$900",
-        "availability": "",
+        "availability": "OUT OF STOCK",
         "brand": "VisionTech",
         "image": "/images/xperia.png",
         "images": [
@@ -705,7 +705,7 @@ export const products:Product[] = [
         "category": "Home Appliances",
         "description": "Control your home temperature remotely with this smart thermostat.",
         "discount": "$250",
-        "availability": "",
+        "availability": "OUT OF STOCK",
         "brand": "HomeComfort",
         "image": "/images/high-speed-cable.png",
         "images": [
@@ -731,7 +731,7 @@ export const products:Product[] = [
         "category": "Electronics",
         "description": "Experience high-quality sound with these wireless earbuds featuring noise cancellation.",
         "discount": "$110",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "SoundWave",
         "image": "/images/black-beats.png",
         "images": [
@@ -757,7 +757,7 @@ export const products:Product[] = [
         "category": "Home Appliances",
         "description": "Keep your floors clean with this smart robot vacuum cleaner featuring advanced navigation.",
         "discount": "$280",
-        "availability": "",
+        "availability": "OUT OF STOCK",
         "brand": "CleanBot",
         "image": "/images/gaming-headphones.png",
         "images": [
@@ -783,7 +783,7 @@ export const products:Product[] = [
         "category": "Kitchen Appliances",
         "description": "Boil water quickly with this electric kettle featuring a rapid boil function.",
         "discount": "$40",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "KitchenPro",
         "image": "/images/xperia.png",
         "images": [
@@ -809,7 +809,7 @@ export const products:Product[] = [
         "category": "Electronics",
         "description": "Display your favorite photos with this digital photo frame featuring Wi-Fi connectivity.",
         "discount": "$180",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "PhotoFrame",
         "image": "/images/computer-monitor.png",
         "images": [
@@ -835,7 +835,7 @@ export const products:Product[] = [
         "category": "Electronics",
         "description": "Enjoy vivid visuals and smart features with this 4K Ultra HD Smart TV.",
         "discount": "$650",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "VisionPro",
         "image": "/images/xperia.png",
         "images": [
@@ -861,7 +861,7 @@ export const products:Product[] = [
         "category": "Electronics",
         "description": "Experience high-quality sound with this Bluetooth wireless speaker featuring deep bass.",
         "discount": "$140",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "SoundMaster",
         "image": "/images/high-speed-cable.png",
         "images": [
@@ -887,7 +887,7 @@ export const products:Product[] = [
         "category": "Electronics",
         "description": "Power your gaming with this high-performance laptop featuring RTX graphics.",
         "discount": "$1,700",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "GamePro",
         "image": "/images/computer-monitor.png",
         "images": [
@@ -913,7 +913,7 @@ export const products:Product[] = [
         "category": "Electronics",
         "description": "Keep your home safe with this smart security camera featuring night vision.",
         "discount": "$220",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "SecureHome",
         "image": "/images/gaming-headphones.png",
         "images": [
@@ -939,7 +939,7 @@ export const products:Product[] = [
         "category": "Kitchen Appliances",
         "description": "Chop, blend, and mix with this versatile food processor featuring multiple speed settings.",
         "discount": "$170",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "KitchenMaster",
         "image": "/images/computer-monitor.png",
         "images": [
@@ -965,7 +965,7 @@ export const products:Product[] = [
         "category": "Health & Fitness",
         "description": "Track your health and navigate with ease using this advanced smart watch with GPS.",
         "discount": "$200",
-        "availability": "",
+        "availability": "IN STOCK",
         "brand": "HealthTrack",
         "image": "/images/xperia.png",
         "images": [

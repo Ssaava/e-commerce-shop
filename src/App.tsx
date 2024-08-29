@@ -15,11 +15,12 @@ import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 // create the routes to the different pages here
 const router = createBrowserRouter(
+
   createRoutesFromElements(
     <Route path="/" element={<Base />}>
       <Route index element={<Home />} />
       <Route path={"/products"} element={<Products />} />
-      <Route path={"/product"} element={<Product />} />
+      <Route path={"/product/:productId"} element={<Product />} />
       <Route path={"/wishlist"} element={<Wishlist />} />
       <Route path={"/auth"} element={<Auth />} />
       <Route path={"/about"} element={<About />} />

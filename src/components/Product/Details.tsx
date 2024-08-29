@@ -1,11 +1,14 @@
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel.tsx";
 import {categoriesShop} from "@/assets/data/data.tsx";
-import image from "/images/macbook.png"
 import {useState} from "react";
 import Button from "@/components/Button.tsx";
 import DropDown from "@/components/DropDown.tsx";
-const Details = ()=> {
-    const [productImage, setProductImage] = useState(image);
+
+
+// @ts-ignore
+const Details = ({product})=> {
+    const [productImage, setProductImage] = useState(product.image);
+    console.log("Product",product)
     const handleProductImage = (img: string)=>{
         setProductImage(img)
     }
@@ -16,7 +19,7 @@ const Details = ()=> {
                     <div className={"max-w-[38.5rem] max-h-[29rem] h-full w-full p-6 border-2"}>
                         <img
                             src={productImage}
-                            alt={"Laptop Computer"}
+                            alt={product.name}
                             className={"w-full h-full object-cover"}
                         />
                     </div>
@@ -62,27 +65,29 @@ const Details = ()=> {
                             <p className={"text-gray-600"}>(21,671 User Feedback</p>
                         </div>
                         <h3 className={"text-gray-900 font-medium text-2xl"}>
-                            2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage)-Space Gray
+                            {product.name}
                         </h3>
                         <div className={"grid grid-cols-2"}>
                             <div className={"vertical-spacing"}>
-                                <p className={"text-gray-600 text-sm"}>Sku: <span
-                                    className={"text-gray-900 font-bold"}>A264671</span></p>
-                                <p className={"text-gray-600 text-sm"}>Brand <span
-                                    className={"text-gray-900 font-bold"}>Apple</span></p>
+                                <p className={"text-gray-600 text-sm"}>Tag: <span
+                                    className={"text-gray-900 font-bold"}>{product.tag}</span></p>
+                                <p className={"text-gray-600 text-sm"}>Brand: <span
+                                    className={"text-gray-900 font-bold"}>{product.brand}</span></p>
                             </div>
                             <div className={"vertical-spacing"}>
-                                <p className={"text-gray-600 text-sm"}>Availability <span
-                                    className={"text-success-500 font-bold"}>In Stock</span></p>
-                                <p className={"text-gray-600 text-sm"}>Category <span
-                                    className={"text-gray-900 font-bold"}>Electronics Devices</span></p>
+                                <p className={"text-gray-600 text-sm"}>Availability: <span
+                                    className={`${product.availability.toUpperCase() === "IN STOCK" ? "text-success-500" : "text-danger-500"} font-bold`}>{product.availability}</span></p>
+                                <p className={"text-gray-600 text-sm"}>Category: <span
+                                    className={"text-gray-900 font-bold"}>{product.category}</span></p>
                             </div>
                         </div>
 
                         <div className={"flex gap-2 items-center flex-wrap"}>
+                            <h5 className={"text-sm text-gray-400 font-bold line-through"}>{product.discount}</h5>
                             <h4 className={"text-2xl text-secondary-500 font-bold"}>$1699</h4>
-                            <h5 className={"text-lg text-gray-500 font-bold"}>$1999.00</h5>
-                            <Button title={"21% OFF"} className={"bg-warning-400 text-sm ms-2"}/>
+                            {
+                                product.discount !== "" && <Button title={"21% OFF"} className={"bg-warning-400 text-sm ms-2"} />
+                            }
                         </div>
                     </div>
                     <div className={"grid grid-cols-2 gap-6 mb-8"}>
@@ -125,7 +130,7 @@ const Details = ()=> {
                     </div>
                     <div className={"flex my-8 items-center gap-8 text-gray-600"}>
                         <div className={"flex text-sm cursor-pointer items-center gap-4"}>
-                            <i className="text-2xl fa-solid fa-heart text-danger-500"></i>
+                            <i className={`text-2xl fa-solid fa-heart ${product.wishlist ? "text-danger-500": "product-gray-600"}`}></i>
 
                             <h4>Add to Wishlist</h4>
                         </div>
