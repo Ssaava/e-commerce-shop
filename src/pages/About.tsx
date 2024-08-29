@@ -114,14 +114,48 @@ const About = () => {
         <Sales />
       </section>
 
-      <section className="bg-secondary-700">
-       <div className="section">
-       <p className="">Subscribe to our newsletter</p>
-        <p >
-          Praesent fringilla erat a lacinia egestas. Donec vehicula tempor
-          libero et cursus. Donec non quam urna. Quisque vitae porta ipsum.
-        </p>
-       </div>
+      <section className="bg-secondary-700 flex justify-center">
+        <div className="section w-[60vw] py-10 ">
+          <p className="text-[32px] text-center text-gray-00 font-semibold py-3">
+            Subscribe to our newsletter
+          </p>
+          <p className="text-gray-100 text-[16px] text-center ">
+            Praesent fringilla erat a lacinia egestas. Donec vehicula tempor
+            libero et cursus. Donec non quam urna. Quisque vitae porta ipsum.
+          </p>
+
+          <div className="w-full flex justify-center bg-white px-3 py-3 my-5">
+            <input
+              type="email"
+              placeholder="Email address"
+              className="w-full h-[40px] px-5 "
+            />
+            <button
+              type="submit"
+              className="bg-primary-500 hover:bg-primary-700 text-white flex justify-center items-center gap-2 px-5"
+            >
+              SUBSCRIBE
+              <i className="fa fa-long-arrow-right"></i>
+            </button>
+          </div>
+          <div className="flex gap-5 justify-center">
+            <a href="#">
+              {" "}
+              <img src="/images/googlelogo.png" alt="google" width={72} />
+            </a>
+            <a href="#">
+              {" "}
+              <img src="/images/amazon.png" alt="google" width={72} />
+            </a>
+            <a href="#">
+              {" "}
+              <img src="/images/phillip.png" alt="google" width={72} />
+            </a>
+
+            <a href="#"><img src="/images/toshiba.png" alt="google" width={72} /></a>
+            <a href="#"><img src="/images/sumsang.png" alt="google" width={72} /></a>
+          </div>
+        </div>
       </section>
     </>
   );
