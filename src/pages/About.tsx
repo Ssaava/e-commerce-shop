@@ -1,3 +1,5 @@
+import Sales from "@/components/Home/Sales";
+import StaffCard from "@/components/StaffCard";
 import TickedList from "@/components/TickedList";
 import { Card } from "@/components/ui/card";
 
@@ -37,14 +39,78 @@ const About = () => {
 
       <hr className="my-4 border-gray-300 w-full" />
 
-      <section className="section ">
-        <p>Our core team members</p>
-        <div>
-          <Card>
-            <img src="/images/team-member-1.jpg" alt="Team Member 1" />
-            <div></div>
-          </Card>
+      <section className="section py-8">
+        <p className="flex justify-center text-[32px] font-semibold pb-5">
+          Our core team members
+        </p>
+        <div className="grid grid-cols-4 gap-3">
+          <StaffCard
+            name="Kevin Gilbert"
+            role="Chief Executive officer"
+            img="/images/staff1.png"
+          />
+          <StaffCard
+            name="Kevin Gilbert"
+            role="Assistant of CEO"
+            img="/images/staff1.png"
+          />
+          <StaffCard
+            name="Kevin Gilbert"
+            role="Head of Designer"
+            img="/images/staff2.png"
+          />
+          <StaffCard
+            name="Kevin Gilbert"
+            role="Design Engineer"
+            img="/images/staff4.png"
+          />
+          <StaffCard
+            name="Kevin Gilbert"
+            role="UX Designer"
+            img="/images/staff4.png"
+          />
+          <StaffCard
+            name="Kevin Gilbert"
+            role="UI Designer"
+            img="/images/staff5.png"
+          />
+          <StaffCard
+            name="Kevin Gilbert"
+            role="Product Designer"
+            img="/images/staff6.png"
+          />
+          <StaffCard
+            name="Kevin Gilbert"
+            role="Head of Development"
+            img="/images/staff7.png"
+          />
         </div>
+      </section>
+
+      <div
+        className="bg-cover bg-center h-[360px] my-6 flex items-center"
+        style={{ backgroundImage: "url('/images/aboutbg.png')" }}
+      >
+        <div className="section py">
+          <div className="w-[25vw]">
+            <p className="text-gray-900 text-[32px] font-semibold leading-tight py-6">
+              Your trusted and reliable retail shop
+            </p>
+            <p className="text-gray-900 ">
+              Praesent sed semper metus. Nunc aliquet dolor mauris, et fringilla
+              elit gravida eget. Nunc consequat auctor urna a placerat.
+            </p>
+            <img
+              src="/images/about-btn.png"
+              alt="button"
+              width={50}
+              className="py-5"
+            />
+          </div>
+        </div>
+      </div>
+      <section>
+        <Sales />
       </section>
     </>
   );
