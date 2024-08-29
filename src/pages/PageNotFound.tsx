@@ -25,7 +25,7 @@ const PageNotFound = () => {
             <span>
               <i className="fa-solid fa-house" />
             </span>
-            <a href={"#"}>GO TO HOME</a>
+            <a href={"/"}>GO TO HOME</a>
           </button>
         </div>
       </div>
