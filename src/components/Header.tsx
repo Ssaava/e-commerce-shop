@@ -98,7 +98,7 @@ const Header = () => {
                 </li>
                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                   <i className="fa-solid fa-headset" />
-                  <Link to="#">Customer Support</Link>
+                  <Link to="/contact">Customer Support</Link>
                 </li>
               </ul>
             </div>
