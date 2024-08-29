@@ -8,7 +8,7 @@ const About = () => {
     <>
       <section className="section flex justify-center py-20 gap-4 items-center">
         <div className="flex-1">
-          <Card className="bg-secondary-500 p-2 rounded-none w-fit text-gray-00 mb-4">
+          <Card className="bg-secondary-500 py-1 px-2 rounded-none w-fit text-gray-00 mb-4">
             WHO WE ARE
           </Card>
           <p className="text-[40px] font-semibold leading-tight pb-3">
@@ -33,6 +33,7 @@ const About = () => {
             src="/images/about-us-image.png"
             alt="Client with our worker"
             width={648}
+            height={732}
           />
         </div>
       </section>
@@ -111,6 +112,16 @@ const About = () => {
       </div>
       <section>
         <Sales />
+      </section>
+
+      <section className="bg-secondary-700">
+       <div className="section">
+       <p className="">Subscribe to our newsletter</p>
+        <p >
+          Praesent fringilla erat a lacinia egestas. Donec vehicula tempor
+          libero et cursus. Donec non quam urna. Quisque vitae porta ipsum.
+        </p>
+       </div>
       </section>
     </>
   );
