@@ -6,6 +6,7 @@
 - [Useful HTML Code Snippets](#useful-html-code-snippets)
 - [Useful Spacing Options for the Deals Tags](#useful-spacing-options-for-the-deals-tags)
 - [Useful Resources](#useful-resources)
+- [Branch Order](#branch-order)
 - [Colors Used](#colors-used)
 
 ### Project Setup
@@ -109,6 +110,15 @@ git checkout test/branchname
     ENDS OF CHRISTMAS
 </button>
 ```
+
+### Branch Order
+- main
+- test
+- home
+- product
+- auth
+- about
+- wishlist
 ### Colors Used
 - Background: **#E3E6E6**
 ***
