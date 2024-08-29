@@ -58,15 +58,15 @@ const Header = () => {
             </Link>
             <SearchInput />
             <div className="flex gap-6 text-gray-00 text-2xl">
-              <div className="relative">
+              <Link to={"#"} className="relative">
                 <div className="absolute -top-2 -right-2 bg-white w-5 h-5 text-secondary-700 flex items-center justify-center text-sm  rounded-full">
                   2
                 </div>
                 <i className="fa-brands fa-opencart" />
-              </div>
-              <div>
+              </Link>
+              <Link to={"/wishlist"}>
                 <i className="fa-regular fa-heart" />
-              </div>
+              </Link>
               <Link to={"/auth"}>
                 <div>
                   <i className="fa-regular fa-user" />
@@ -90,7 +90,7 @@ const Header = () => {
                 </li>
                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                   <i className="fa-regular fa-heart" />
-                  <Link to="/">Wishlist</Link>
+                  <Link to="/wishlist">Wishlist</Link>
                 </li>
                 <li className="px-4 py-2 flex gap-2 hover:text-gray-900 hover:bg-gray-50 transition-all duration-250 items-center text-sm">
                   <i className="fa-regular fa-lightbulb" />
