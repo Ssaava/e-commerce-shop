@@ -7,12 +7,13 @@ interface Props {
     deal?: string;
     className?: string;
     discount?: string;
+    id: string;
 }
-const ProductCard = ({src, amount, name, deal, className, discount}:Props)=>{
+const ProductCard = ({id,src, amount, name, deal, className, discount}:Props)=>{
     return (
         <>
             <Link
-                to={`/product`}
+                to={`/product/${id}`}
                 className={`border-[.5px] p-4 border-gray-100 relative text-wrap h-full w-full ${className}`}>
                 {/*Deals*/}
                 <div className={"flex flex-col gap-4 absolute left-4 top-4"}>
