@@ -3,6 +3,7 @@ import pads from "/images/pads.png";
 import blackBeats from "/images/black-beats.png";
 import whiteDrone from "/images/white-drone.png";
 import xperia from "/images/xperia.png"
+import Discount from "@/components/Discount.tsx";
 const BestDeals = ()=>{
     return (
         <>
@@ -58,12 +59,7 @@ const BestDeals = ()=>{
                                             Xbox Series S-512GB SSD Console with Wireless Controller-EU
                                             Version...
                                         </h3>
-                                        <div className="my-4 flex gap-2 items-center font-bold">
-                                            <p className="text-gray-300 line-through font-medium">
-                                                $865.99
-                                            </p>
-                                            <p className="text-secondary-500">$442.12</p>
-                                        </div>
+                                        <Discount price={"$865.99"} discount={"$442.12"} discountPosition={"right"} />
                                         <p className="my-2 text-gray-600 text-sm">
                                             Game built using the Xbox Series X|s development kit showcase
                                             unparalleled load times, visuals
