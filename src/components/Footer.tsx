@@ -47,7 +47,7 @@ const Footer = ()=>{
 
                         </div>
                         <h4 className="mt-6 text-warning-500 flex gap-2 items-center">
-                            <a>Browse All Products</a> <i className="fa-solid fa-arrow-right"/>
+                            <a href={"/products"}>Browse All Products</a> <i className="fa-solid fa-arrow-right"/>
                         </h4>
                     </div>
                     {/*        Quick Links*/}
