@@ -43,7 +43,6 @@ const ComputerAccessories =()=>{
                                                  className={"max-h-[20rem] overflow-hidden"} discount={discount}/>
                                 ))
                             }
-
                         </div>
                     </div>
 
