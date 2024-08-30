@@ -14,6 +14,7 @@ import Auth from "./pages/Auth";
 import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Cart from "@/pages/Cart.tsx";
+import Checkout from "@/pages/Checkout.tsx";
 // create the routes to the different pages here
 const router = createBrowserRouter(
 
@@ -25,7 +26,8 @@ const router = createBrowserRouter(
       <Route path={"/wishlist"} element={<Wishlist />} />
       <Route path={"/auth"} element={<Auth />} />
       <Route path={"/about"} element={<About />} />
-        <Route path={"cart"} element={<Cart />}/>
+        <Route path={"/cart"} element={<Cart />}/>
+        <Route path={"/checkout"} element={<Checkout />} />
       <Route path={"/contact"} element={<ContactUs />} />
       <Route path="*" element={<PageNotFound />} />
     </Route>
