@@ -58,7 +58,7 @@ const Header = () => {
             </Link>
             <SearchInput />
             <div className="flex gap-6 text-gray-00 text-2xl">
-              <Link to={"#"} className="relative">
+              <Link to={"/cart"} className="relative">
                 <div className="absolute -top-2 -right-2 bg-white w-5 h-5 text-secondary-700 flex items-center justify-center text-sm  rounded-full">
                   2
                 </div>

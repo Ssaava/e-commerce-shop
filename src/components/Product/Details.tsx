@@ -3,15 +3,19 @@ import {categoriesShop} from "@/assets/data/data.tsx";
 import {useState} from "react";
 import Button from "@/components/Button.tsx";
 import DropDown from "@/components/DropDown.tsx";
+import CartItems from "@/components/cart/CartItems.tsx";
 
 
 // @ts-ignore
 const Details = ({product})=> {
     const [productImage, setProductImage] = useState(product.image);
+
     console.log("Product",product)
     const handleProductImage = (img: string)=>{
         setProductImage(img)
     }
+
+
     return (
         <>
             <div className={"grid grid-cols-12 gap-12 border-gray-100"}>
@@ -113,11 +117,8 @@ const Details = ({product})=> {
                     </div>
 
                     <div className={"flex items-center gap-4"}>
-                        <div className={"py-4 px-6 flex items-center gap-4 border-2 border-gray-200"}>
-                            <button><i className="fa-solid fa-minus"></i></button>
-                            <p>01</p>
-                            <button><i className="fa-solid fa-plus"></i></button>
-                        </div>
+                        {/*cart*/}
+                        <CartItems />
                         <button
                             className={`flex flex-1 items-center justify-center rounded-sm text-gray-00 font-bold bg-primary-500 px-6 py-4 gap-4`}>
                             <a href={"#"}>ADD TO CART</a>
