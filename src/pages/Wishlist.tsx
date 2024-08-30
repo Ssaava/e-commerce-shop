@@ -12,7 +12,7 @@ import Discount from "@/components/Discount.tsx";
 import Button from "@/components/Button.tsx";
 const WishlistPage = () => {
 
-    const filteredProducts = products.filter((product: { availability: string; }) => product.availability !== "");
+    const filteredProducts = products.filter((product: {whishlist: boolean}) => product.whishlist);
     return (
         <>
             <section className={"section my-8"}>
