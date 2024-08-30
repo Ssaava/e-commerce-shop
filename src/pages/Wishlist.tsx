@@ -12,7 +12,7 @@ import Discount from "@/components/Discount.tsx";
 import Button from "@/components/Button.tsx";
 const WishlistPage = () => {
 
-    const filteredProducts = products.filter((product: { availability: string; }) => product.availability !== "");
+    const filteredProducts = products.filter((product: {whishlist: boolean}) => product.whishlist);
     return (
         <>
             <section className={"section my-8"}>
@@ -31,7 +31,7 @@ const WishlistPage = () => {
                         </TableHeader>
                         <TableBody>
                             {
-                                filteredProducts.map(({image, name, availability}: {image: string; name: string; availability: string})=>(
+                                filteredProducts.map(({image, name, availability, price, discount}: {image: string; name: string; availability: string, price: string; discount: string})=>(
                                     <TableRow>
                                         <TableCell className={"max-w-96 pl-8"}>
                                             <div className={"flex gap-4 items-center"}>
@@ -41,8 +41,8 @@ const WishlistPage = () => {
                                                 <p>{name}</p>
                                             </div>
                                         </TableCell>
-                                        <TableCell className={"pl-8"}>
-                                            <Discount price={"$102933"} discount={"$129"} discountPosition={"left"} priceColor={"text-gray-700 font-bold"}/>
+                                        <TableCell className={"pl-8 text-center"}>
+                                            <Discount price={price} discount={discount} discountPosition={"left"} priceColor={"text-gray-700 font-bold"}/>
                                         </TableCell>
                                         <TableCell className={"pl-8"}>
                                             <div>

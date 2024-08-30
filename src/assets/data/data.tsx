@@ -42,14 +42,14 @@ export const products:Product[] = [
         "capacity": "128GB",
         "cart": true,
         "tag": "New Arrival",
-        "quantity": 50,
-        "whishlist": false,
+        "quantity": 2,
+        "whishlist": true,
         "rating": [5, 4, 4, 5, 5]
     },
     {
         "id": "2",
         "name": "Samsung Galaxy S21 4G. Fast Charging",
-        "price": "$2,300",
+        "price": "$2300",
         "category": "Smart Phones",
         "description": "A high-end smartphone with a sleek design and powerful features.",
         "discount": "",
@@ -69,7 +69,7 @@ export const products:Product[] = [
         "capacity": "128GB",
         "cart": true,
         "tag": "New Arrival",
-        "quantity": 50,
+        "quantity": 3,
         "whishlist": false,
         "rating": [5, 4, 4, 5, 5]
     },
@@ -93,9 +93,9 @@ export const products:Product[] = [
         "deals": "BEST DEALS",
         "size": "6.5 inches",
         "capacity": "128GB",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
-        "quantity": 50,
+        "quantity": 1,
         "whishlist": true,
         "rating": [5, 4, 4, 5, 5]
     },
@@ -121,14 +121,14 @@ export const products:Product[] = [
         "capacity": "128GB",
         "cart": true,
         "tag": "New Arrival",
-        "quantity": 50,
+        "quantity": 4,
         "whishlist": true,
         "rating": [5, 4, 4, 5, 5]
     },
     {
         "id": "5",
         "name": "Wired Over-Ear Gaming Headphones with USB",
-        "price": "$1,500",
+        "price": "$1500",
         "category": "Electronics",
         "description": "A high-end smartphone with a sleek design and powerful features.",
         "discount": "",
@@ -146,7 +146,7 @@ export const products:Product[] = [
         "deals": "",
         "size": "6.5 inches",
         "capacity": "128GB",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
         "quantity": 50,
         "whishlist": true,
@@ -172,9 +172,9 @@ export const products:Product[] = [
         "deals": "25% OFF",
         "size": "6.5 inches",
         "capacity": "128GB",
-        "cart": true,
+        "cart": false,
         "tag": "Featured Product",
-        "quantity": 50,
+        "quantity": 10,
         "whishlist": true,
         "rating": [5, 4, 4, 5, 5]
     },
@@ -201,7 +201,7 @@ export const products:Product[] = [
         "cart": true,
         "tag": "New Arrival",
         "quantity": 50,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 4, 4, 5, 5]
     },
     {
@@ -227,7 +227,7 @@ export const products:Product[] = [
         "cart": true,
         "tag": "New Arrival",
         "quantity": 50,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 4, 4, 5, 5]
     },
     {
@@ -250,7 +250,7 @@ export const products:Product[] = [
         "deals": "LIMITED OFFER",
         "size": "Universal",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Best Seller",
         "quantity": 30,
         "whishlist": true,
@@ -276,10 +276,10 @@ export const products:Product[] = [
         "deals": "",
         "size": "Compact",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Trending",
         "quantity": 45,
-        "whishlist": false,
+        "whishlist": true,
         "rating": [4, 5, 4, 4, 4]
     },
     {
@@ -305,7 +305,7 @@ export const products:Product[] = [
         "cart": true,
         "tag": "New Arrival",
         "quantity": 20,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 5, 4, 4, 5]
     },
     {
@@ -328,7 +328,7 @@ export const products:Product[] = [
         "deals": "20% OFF",
         "size": "Medium",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Hot Deal",
         "quantity": 10,
         "whishlist": true,
@@ -357,7 +357,7 @@ export const products:Product[] = [
         "cart": true,
         "tag": "Best Seller",
         "quantity": 25,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 5, 5, 4, 4]
     },
     {
@@ -380,7 +380,7 @@ export const products:Product[] = [
         "deals": "Limited Offer",
         "size": "Compact",
         "capacity": "32GB",
-        "cart": true,
+        "cart": false,
         "tag": "Top Rated",
         "quantity": 15,
         "whishlist": false,
@@ -406,10 +406,10 @@ export const products:Product[] = [
         "deals": "",
         "size": "Universal",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Best Seller",
         "quantity": 100,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 4, 5, 4, 5]
     },
     {
@@ -432,10 +432,10 @@ export const products:Product[] = [
         "deals": "10% OFF",
         "size": "Small",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
         "quantity": 75,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 4, 4, 5, 4]
     },
     {
@@ -458,10 +458,10 @@ export const products:Product[] = [
         "deals": "SALE",
         "size": "Adjustable",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Featured",
         "quantity": 60,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 5, 5, 4, 4]
     },
     {
@@ -484,10 +484,10 @@ export const products:Product[] = [
         "deals": "",
         "size": "Compact",
         "capacity": "1TB",
-        "cart": true,
+        "cart": false,
         "tag": "Best Seller",
         "quantity": 40,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 5, 4, 5, 5]
     },
     {
@@ -510,7 +510,7 @@ export const products:Product[] = [
         "deals": "LIMITED OFFER",
         "size": "Large",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Trending",
         "quantity": 30,
         "whishlist": false,
@@ -536,10 +536,10 @@ export const products:Product[] = [
         "deals": "20% OFF",
         "size": "Compact",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
         "quantity": 25,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 5, 4, 4, 4]
     },
     {
@@ -562,7 +562,7 @@ export const products:Product[] = [
         "deals": "",
         "size": "Medium",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Best Seller",
         "quantity": 50,
         "whishlist": false,
@@ -588,10 +588,10 @@ export const products:Product[] = [
         "deals": "SALE",
         "size": "Compact",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Top Rated",
         "quantity": 70,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 5, 4, 4, 5]
     },
     {
@@ -614,10 +614,10 @@ export const products:Product[] = [
         "deals": "15% OFF",
         "size": "Large",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Trending",
         "quantity": 20,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 4, 4, 5, 5]
     },
     {
@@ -640,7 +640,7 @@ export const products:Product[] = [
         "deals": "",
         "size": "Medium",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
         "quantity": 30,
         "whishlist": false,
@@ -666,10 +666,10 @@ export const products:Product[] = [
         "deals": "SALE",
         "size": "Compact",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Featured",
         "quantity": 45,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 5, 4, 4, 5]
     },
     {
@@ -692,10 +692,10 @@ export const products:Product[] = [
         "deals": "LIMITED OFFER",
         "size": "Adjustable",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Best Seller",
         "quantity": 60,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 4, 5, 5, 4]
     },
     {
@@ -718,10 +718,10 @@ export const products:Product[] = [
         "deals": "",
         "size": "Compact",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Trending",
         "quantity": 25,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 5, 4, 5, 5]
     },
     {
@@ -744,10 +744,10 @@ export const products:Product[] = [
         "deals": "20% OFF",
         "size": "Compact",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
         "quantity": 40,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 5, 4, 5, 4]
     },
     {
@@ -770,10 +770,10 @@ export const products:Product[] = [
         "deals": "SALE",
         "size": "Medium",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Top Rated",
         "quantity": 20,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 5, 5, 4, 4]
     },
     {
@@ -796,7 +796,7 @@ export const products:Product[] = [
         "deals": "",
         "size": "Compact",
         "capacity": "1.7L",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
         "quantity": 50,
         "whishlist": false,
@@ -822,10 +822,10 @@ export const products:Product[] = [
         "deals": "15% OFF",
         "size": "Medium",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Best Seller",
         "quantity": 35,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 5, 5, 4, 4]
     },
     {
@@ -848,10 +848,10 @@ export const products:Product[] = [
         "deals": "HOT DEAL",
         "size": "55 inches",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Featured",
         "quantity": 30,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 4, 5, 5, 4]
     },
     {
@@ -874,10 +874,10 @@ export const products:Product[] = [
         "deals": "20% OFF",
         "size": "Portable",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
         "quantity": 40,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 5, 5, 4, 4]
     },
     {
@@ -900,10 +900,10 @@ export const products:Product[] = [
         "deals": "SALE",
         "size": "17 inches",
         "capacity": "512GB SSD",
-        "cart": true,
+        "cart": false,
         "tag": "Top Rated",
         "quantity": 25,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 5, 4, 5, 4]
     },
     {
@@ -926,10 +926,10 @@ export const products:Product[] = [
         "deals": "",
         "size": "Compact",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "New Arrival",
         "quantity": 50,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [4, 5, 5, 4, 5]
     },
     {
@@ -952,10 +952,10 @@ export const products:Product[] = [
         "deals": "15% OFF",
         "size": "Medium",
         "capacity": "2L",
-        "cart": true,
+        "cart": false,
         "tag": "Best Seller",
         "quantity": 45,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 4, 4, 5, 5]
     },
     {
@@ -978,10 +978,10 @@ export const products:Product[] = [
         "deals": "LIMITED OFFER",
         "size": "Adjustable",
         "capacity": "N/A",
-        "cart": true,
+        "cart": false,
         "tag": "Featured",
         "quantity": 30,
-        "whishlist": true,
+        "whishlist": false,
         "rating": [5, 5, 4, 5, 4]
     },
 ];
