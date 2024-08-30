@@ -65,9 +65,6 @@ const Products = ()=>{
                     <Link to={"/"}>
                         <li>Shop <i className="ml-2 fa-solid fa-angle-right"></i></li>
                     </Link>
-                    <Link to={"/"}>
-                        <li>Shop Grid <i className="ml-2 fa-solid fa-angle-right"></i></li>
-                    </Link>
                     <Link to={"/products"}>
                         <li className=" text-secondary-500">Products</li>
                     </Link>

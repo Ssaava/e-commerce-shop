@@ -83,7 +83,7 @@ const Cart = ()=>{
                                 <div>
                                     <p>Total</p>
                                 </div>
-                                <div text-end>
+                                <div className={"text-end"}>
                                     $357.99 USD
                                 </div>
                             </div>
