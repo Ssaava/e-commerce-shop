@@ -6,12 +6,12 @@ import { Card } from "@/components/ui/card";
 const About = () => {
   return (
     <>
-      <section className="section flex justify-center py-20 gap-4 items-center">
-        <div className="flex-1">
+      <section className="section md:flex justify-center py-20 gap-4 items-center">
+        <div className="md:flex-1">
           <Card className="bg-secondary-500 py-1 px-2 rounded-none w-fit text-gray-00 mb-4">
             WHO WE ARE
           </Card>
-          <p className="text-[40px] font-semibold leading-tight pb-3">
+          <p className="md:text-[40px] text-[26px] font-semibold leading-tight pb-3">
             Kinbo - largest electronics retail shop in the world.
           </p>
           <p className="pb-4 text-gray-700 text-[16px]">
@@ -28,7 +28,7 @@ const About = () => {
             <TickedList subject="Over 1 Million Electronics Products" />
           </div>
         </div>
-        <div className="flex-1">
+        <div className="md:flex-1 ">
           <img
             src="/images/about-us-image.png"
             alt="Client with our worker"
@@ -44,7 +44,7 @@ const About = () => {
         <p className="flex justify-center text-[32px] font-semibold pb-5">
           Our core team members
         </p>
-        <div className="grid grid-cols-4 gap-3">
+        <div className="grid md:grid-cols-4  grid-cols-2 gap-3">
           <StaffCard
             name="Kevin Gilbert"
             role="Chief Executive officer"
@@ -93,8 +93,8 @@ const About = () => {
         style={{ backgroundImage: "url('/images/aboutbg.png')" }}
       >
         <div className="section py">
-          <div className="w-[25vw]">
-            <p className="text-gray-900 text-[32px] font-semibold leading-tight py-6">
+          <div className="md:w-[25vw]">
+            <p className="text-gray-900 md:text-[32px] text-2xl font-semibold leading-tight py-6">
               Your trusted and reliable retail shop
             </p>
             <p className="text-gray-900 ">
@@ -115,7 +115,7 @@ const About = () => {
       </section>
 
       <section className="bg-secondary-700 flex justify-center">
-        <div className="section w-[60vw] py-10 ">
+        <div className="section md:w-[60vw] py-10 ">
           <p className="text-[32px] text-center text-gray-00 font-semibold py-3">
             Subscribe to our newsletter
           </p>
