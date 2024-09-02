@@ -16,8 +16,8 @@ const ContactCard = ({ image, title, info, contact, button, color }: Props) => {
           <img src={image} alt="call" width={96} />
           <div className="flex-col gap-4">
             <p className="text-[16px] font-semibold text-gray-900"> {title}</p>
-            <p className="text-sm text-gray-600">{info}</p>
-            <p className="font-semibold text-2xl">{contact}</p>
+            <p className="md:text-sm text-gray-600 w-44">{info}</p>
+            <p className="font-semibold md:text-2xl text-lg">{contact}</p>
           </div>
         </div>
         

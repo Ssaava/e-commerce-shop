@@ -37,13 +37,13 @@ const ContactUs = () => {
         </ul>
       </div>
 
-      <section className="section flex py-10 justify-between items-center">
+      <section className="section md:flex py-10 justify-between items-center grid grid-cols-1">
         <div>
           <Card className="bg-warning-400 w-fit py-1 px-3 rounded-none text-sm font-semibold">
             HELP CENTER
           </Card>
           <p className="text-gray-900 text-[28px]">How can we help you!</p>
-          <div className="flex justify-center bg-white px-3 py-2 my-5 border items-center w-[30vw]">
+          <div className="flex justify-center bg-white px-3 py-2 my-5 border items-center md:w-[30vw] w-90vw">
             <i className="fa-solid fa-magnifying-glass text-primary-500"></i>
             <input
               type="email"
@@ -58,15 +58,21 @@ const ContactUs = () => {
             </button>
           </div>
         </div>
-        <img src="/images/businesswoman.png" alt="business woman" width={400} />
+        <div className="">
+          <img
+            src="/images/businesswoman.png"
+            alt="business woman"
+            width={400}
+          />
+        </div>
       </section>
 
       <section className="section">
-        <p className="text-gray-900 text-[28px] text-center">
-          How can we assist you today?{" "}
+        <p className="text-gray-900 md:text-[28px] text-center text-[22px]">
+          How can we assist you today?
         </p>
 
-        <div className="grid grid-cols-4 gap-3 py-7 ">
+        <div className="grid md:grid-cols-4 gap-3 py-7 grid-cols-2">
           <AssistCard icon="fa-solid fa-truck" name="Track order" link="/" />
           <AssistCard
             name="Reset Password"
@@ -91,7 +97,7 @@ const ContactUs = () => {
           />
           <AssistCard
             name="Shopping cart & wallet"
-            icon="fa-regular fa-credit card"
+            icon="fa-regular fa-credit-card"
             link="/"
           />
           <AssistCard
@@ -105,7 +111,7 @@ const ContactUs = () => {
         <p className="text-gray-900 font-bold text-[20px] text-center pt-5">
           Popular topics
         </p>
-        <div className="grid grid-cols-3 gap-3 py-7 text-sm">
+        <div className="grid md:grid-cols-3 gap-3 py-7 text-sm">
           {topics.map((topic, index) => (
             <Link
               key={index}
@@ -135,7 +141,7 @@ const ContactUs = () => {
             </p>
           </div>
 
-          <div className="flex gap-5">
+          <div className="md:flex md:gap-32 gap-5 justify-center grid grid-cols-1">
             <ContactCard
               image="/images/call.png"
               title="Call us now"
