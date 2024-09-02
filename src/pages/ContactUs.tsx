@@ -97,7 +97,7 @@ const ContactUs = () => {
           />
           <AssistCard
             name="Shopping cart & wallet"
-            icon="fa-regular fa-credit-card"
+            icon="fa-regular fa-credit-Card"
             link="/"
           />
           <AssistCard
