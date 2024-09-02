@@ -1,13 +1,13 @@
 const PageNotFound = () => {
   return (
     <>
-      <div className="center-item flex-col">
+      <div className=" section center-item flex-col ">
         <img src="/images/page.png" alt="page not found" width={400} />
-        <div className="w-[600px] text-center mb-10">
+        <div className="md:w-[600px] w-[300px] text-center mb-10">
           <p className="text-2xl font-bold">404, Page not found</p>
           <p className="text-gray-800">
-            Something went wrong. It’s look that your requested could not be
-            found. It’s look like the link is broken or the page is removed.
+            Something went wrong. <br/> It looks that your requested could not be
+            found. 
           </p>
         </div>
         <div className="flex gap-7 pb-10">
