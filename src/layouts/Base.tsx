@@ -33,7 +33,7 @@ const MainLayOut = () => {
                                     />
                                 </svg>
                                 <span className="text-xl lg:text-2xl xl:text-3xl font-bold">
-            Template
+            Misercom Online Shop
           </span>
                             </div>
                             <h1 className="text-6xl lg:text-7xl xl:text-8xl text-gray-200 tracking-wider font-bold font-serif mt-12 text-center">
